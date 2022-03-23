@@ -7,7 +7,16 @@
     <loc>/authors.html</loc>
   </url>
   <url>
+    <loc>/index - Copy.html</loc>
+  </url>
+  <url>
     <loc>/index.html</loc>
+  </url>
+  <url>
+    <loc>/LICENSE-text.html</loc>
+  </url>
+  <url>
+    <loc>/LICENSE.html</loc>
   </url>
   <url>
     <loc>/reference/crossover_basic_2d.html</loc>
@@ -19,7 +28,34 @@
     <loc>/reference/differentiate.html</loc>
   </url>
   <url>
+    <loc>/reference/example_brachistochrone.html</loc>
+  </url>
+  <url>
+    <loc>/reference/example_euclidean_distance.html</loc>
+  </url>
+  <url>
+    <loc>/reference/example_manhattan_distance.html</loc>
+  </url>
+  <url>
+    <loc>/reference/example_minkowski_distance.html</loc>
+  </url>
+  <url>
+    <loc>/reference/example_non_euclidean_distance_const.html</loc>
+  </url>
+  <url>
+    <loc>/reference/example_non_euclidean_distance_var.html</loc>
+  </url>
+  <url>
+    <loc>/reference/example_physics_engine.html</loc>
+  </url>
+  <url>
     <loc>/reference/ga.html</loc>
+  </url>
+  <url>
+    <loc>/reference/ga_example.html</loc>
+  </url>
+  <url>
+    <loc>/reference/get_settings.html</loc>
   </url>
   <url>
     <loc>/reference/index.html</loc>
@@ -32,6 +68,9 @@
   </url>
   <url>
     <loc>/reference/mutation_cauchy.html</loc>
+  </url>
+  <url>
+    <loc>/reference/pipe.html</loc>
   </url>
   <url>
     <loc>/reference/selection_basic_2d.html</loc>
@@ -49,6 +88,12 @@
     <loc>/reference/utility_add_start_end_3d.html</loc>
   </url>
   <url>
+    <loc>/reference/utility_crossover_bread_3d.html</loc>
+  </url>
+  <url>
+    <loc>/reference/utility_crossover_breed_2d.html</loc>
+  </url>
+  <url>
     <loc>/reference/utility_fitness_brachistochrone_2d.html</loc>
   </url>
   <url>
@@ -62,6 +107,9 @@
   </url>
   <url>
     <loc>/reference/utility_fitness_minkowski_3d.html</loc>
+  </url>
+  <url>
+    <loc>/reference/utility_fitness_non_euclidean_3d.html</loc>
   </url>
   <url>
     <loc>/reference/utility_fitness_population_2d.html</loc>

@@ -19,7 +19,7 @@ view the results and ammend parameters during execution."><!-- mathjax --><scrip
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">gapackage</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.1</span>
       </span>
     </div>
 
@@ -504,7 +504,6 @@ parameters <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r
 <span class="r-in"> store_data <span class="op">=</span> <span class="cn">FALSE</span>,</span>
 <span class="r-in"> initial <span class="op">=</span> <span class="va">initial_rand_uni_3d</span></span>
 <span class="r-in"><span class="op">)</span>;</span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in initialize(...):</span> object 'initial_rand_uni_3d' not found</span>
 <span class="r-in"></span>
 <span class="r-in"><span class="co">## ------------------------------------------------</span></span>
 <span class="r-in"><span class="co">## Method `ga$add_operators`</span></span>
@@ -516,12 +515,10 @@ parameters <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r
 <span class="r-in">    <span class="va">crossover_basic_3d</span></span>
 <span class="r-in">  <span class="op">)</span></span>
 <span class="r-in"><span class="op">)</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'brach' not found</span>
 <span class="r-in"></span>
 <span class="r-in"><span class="va">brach</span><span class="op">$</span><span class="fu">add_operators</span><span class="op">(</span></span>
 <span class="r-in">   <span class="va">mutation_cauchy</span></span>
 <span class="r-in"><span class="op">)</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'brach' not found</span>
 <span class="r-in"></span>
 <span class="r-in"><span class="co">## ------------------------------------------------</span></span>
 <span class="r-in"><span class="co">## Method `ga$add_metric`</span></span>
@@ -540,7 +537,6 @@ parameters <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r
 <span class="r-in">    fitness_function <span class="op">=</span> <span class="va">utility_fitness_population_3d</span></span>
 <span class="r-in">  <span class="op">)</span></span>
 <span class="r-in"><span class="op">)</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'brach' not found</span>
 <span class="r-in"></span>
 <span class="r-in"><span class="co">## ------------------------------------------------</span></span>
 <span class="r-in"><span class="co">## Method `ga$add_dependent`</span></span>
@@ -551,28 +547,133 @@ parameters <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r
 <span class="r-in">    fitness_function_single <span class="op">=</span> <span class="va">utility_fitness_brachistochrone_3d</span></span>
 <span class="r-in">  <span class="op">)</span></span>
 <span class="r-in"><span class="op">)</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'brach' not found</span>
 <span class="r-in"></span>
 <span class="r-in"><span class="co">## ------------------------------------------------</span></span>
 <span class="r-in"><span class="co">## Method `ga$next_operator`</span></span>
 <span class="r-in"><span class="co">## ------------------------------------------------</span></span>
 <span class="r-in"></span>
 <span class="r-in"><span class="va">brach</span><span class="op">$</span><span class="fu">next_operator</span><span class="op">(</span><span class="op">)</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'brach' not found</span>
 <span class="r-in"></span>
 <span class="r-in"><span class="co">## ------------------------------------------------</span></span>
 <span class="r-in"><span class="co">## Method `ga$next_iteration`</span></span>
 <span class="r-in"><span class="co">## ------------------------------------------------</span></span>
 <span class="r-in"></span>
 <span class="r-in"><span class="va">brach</span><span class="op">$</span><span class="fu">next_iteration</span><span class="op">(</span><span class="op">)</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'brach' not found</span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in gen_2[(pivot_point + 1):dim(gen_2)[1], ]:</span> subscript out of bounds</span>
 <span class="r-in"></span>
 <span class="r-in"><span class="co">## ------------------------------------------------</span></span>
 <span class="r-in"><span class="co">## Method `ga$generate_server`</span></span>
 <span class="r-in"><span class="co">## ------------------------------------------------</span></span>
 <span class="r-in"></span>
 <span class="r-in"><span class="va">brach</span><span class="op">$</span><span class="fu">generate_server</span><span class="op">(</span><span class="op">)</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'brach' not found</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> function (input, output, session) </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     output$parameter_list_ui &lt;- shiny::renderUI({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         parameter_list</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     shiny::observe({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         if (self$store_data) {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             output$download_button_ui &lt;- renderUI({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 shiny::downloadButton(outputId = "download_button", </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                   icon = NULL, label = shiny::HTML(paste0("&lt;h4&gt;&amp;nbsp&amp;nbsp&amp;nbspDownload&amp;nbsp&amp;nbsp&amp;nbsp&lt;/h4&gt;")), </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                   style = paste0("width: 100%; color: #C0C0C0; font-weight: bold; background-color: #899499; border-color: #899499"))</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         }</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         else {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             output$download_button_ui &lt;- renderUI({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 shiny::actionButton(inputId = "download_button_blank", </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                   icon = NULL, label = shiny::HTML(paste0("&lt;h4&gt;&amp;nbsp&amp;nbsp&amp;nbspDownload&amp;nbsp&amp;nbsp&amp;nbsp&lt;/h4&gt;")), </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                   style = paste0("width: 100%; opacity: 0.3; color: #C0C0C0; font-weight: bold; background-color: #899499; border-color: #899499"))</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         }</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     output$download_button &lt;- downloadHandler(filename = function() {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         paste("saved_data-", Sys.Date(), ".csv", sep = "")</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     }, content = function(file) {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         write.csv(self$stored_df, file)</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     shiny::observeEvent(input$download_button, {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         self$s</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     output$metric_list_ui &lt;- shiny::renderUI({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         lapply(1:length(self$metrics), function(i) {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             shiny::fluidRow(shiny::plotOutput(paste0("metric_graph_", </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 i), width = "100%"))</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     output$output_list_ui &lt;- renderUI({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         lapply(1:length(self$metrics), function(i) {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             shiny::fluidRow(shiny::plotOutput(paste0("output_graph_", </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 i), width = "100%"))</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     lapply(1:length(self$par), function(i) {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         shiny::observeEvent(input[[paste0("parameter_", i)]], </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 self$par[[i]] &lt;- input[[paste0("parameter_", </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                   i)]]</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     autoInvalidate_1000 &lt;- shiny::reactiveTimer(2000)</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     current_generation &lt;- shiny::reactiveValues()</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     shiny::observe({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         autoInvalidate_1000()</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         if (!self$paused) {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             current_generation$value &lt;- self$current_generation</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             for (i in 1:self$speed) {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 self$next_iteration()</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             }</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             if (input$sidebar_menu == "tab_metrics") {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 lapply(1:length(self$metrics), function(i) {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                   output[[paste0("metric_graph_", i)]] &lt;- shiny::renderPlot({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                     plot(1:length(self$metrics[[i]]), self$metrics[[i]], </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                       type = "l", xlab = "Time Index", ylab = names(self$metrics)[i])</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                   })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             }</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             else if (input$sidebar_menu == "tab_output") {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 lapply(1:length(self$output_graphs), function(i) {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                   output[[paste0("output_graph_", i)]] &lt;- shiny::renderPlot({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                     output_data &lt;- self$output_graphs[[i]][["FUN"]](self, </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                       self$population, self$par)</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                     plot(output_data$x, output_data$y, type = "l", </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                       xlab = self$output_graphs[[i]][["xlab"]], </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                       ylab = self$output_graphs[[i]][["ylab"]])</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                   })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             }</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         }</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     output$current_generation_output_1 &lt;- shiny::renderText({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         shiny::HTML(paste0("Current Generation: ", current_generation$value))</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     output$current_generation_output_2 &lt;- shiny::renderText({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         shiny::HTML(paste0("Current Generation: ", current_generation$value))</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     get_play_pause_button &lt;- function(label, color) {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         return(shiny::actionButton(inputId = "play_pause_button", </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             label = shiny::HTML(paste0("&lt;h4&gt;&amp;nbsp&amp;nbsp&amp;nbsp", </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 label, "&amp;nbsp&amp;nbsp&amp;nbsp&lt;/h4&gt;")), style = paste0("width: 100%; color: white; font-weight: bold; background-color: ", </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 color, " ; border-color: ", color)))</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     }</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     output$play_pause_button_ui &lt;- shiny::renderUI({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         get_play_pause_button(label = "Play", color = "#77dd77")</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     shiny::observeEvent(input$play_pause_button, {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         if (self$paused) {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             output$play_pause_button_ui &lt;- shiny::renderUI({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 get_play_pause_button(label = "Pause", color = "#ff6961")</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         }</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         else {</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             output$play_pause_button_ui &lt;- shiny::renderUI({</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                 get_play_pause_button(label = "Play", color = "#77dd77")</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>             })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         }</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>         self$paused &lt;- !self$paused</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     })</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> }</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> &lt;environment: 0x0000000045b68e38&gt;</span>
 <span class="r-in"></span>
 <span class="r-in"><span class="co">## ------------------------------------------------</span></span>
 <span class="r-in"><span class="co">## Method `ga$add_output_graph`</span></span>
@@ -585,7 +686,7 @@ parameters <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r
 <span class="r-in">   FUN <span class="op">=</span> <span class="va">manhattan_plot</span></span>
 <span class="r-in"> <span class="op">)</span></span>
 <span class="r-in"><span class="op">)</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'brach' not found</span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in append(self$output_graphs, list(parameters)):</span> object 'manhattan_plot' not found</span>
 <span class="r-in"></span>
 <span class="r-in"><span class="co">## ------------------------------------------------</span></span>
 <span class="r-in"><span class="co">## Method `ga$add_output_graphs`</span></span>
@@ -605,7 +706,7 @@ parameters <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r
 <span class="r-in">   <span class="op">)</span></span>
 <span class="r-in"> <span class="op">)</span></span>
 <span class="r-in"><span class="op">)</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in eval(expr, envir, enclos):</span> object 'brach' not found</span>
+<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in brach$add_output_graphs(list(list(xlab = "horizontal distance",     ylab = "vertical distance", FUN = manhattan_plot), list(xlab = "horizontal distance",     ylab = "vertical distance", FUN = manhattan_plot))):</span> object 'output_functions' not found</span>
 </code></pre></div>
     </div>
   </div>
@@ -616,7 +717,7 @@ parameters <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r
 
 
       <footer><div class="copyright">
-  <p></p><p>Developed by First Last.</p>
+  <p></p><p>Developed by David Blair.</p>
 </div>
 
 <div class="pkgdown">
